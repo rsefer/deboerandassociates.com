@@ -1,0 +1,97 @@
+---
+layout: default
+title: 'Home'
+bodyClasses: index
+navOrder: 0
+---
+
+<div id="home-carousel" class="carousel slide" data-interval="7500">
+  <div class="carousel-inner">
+    <div id="slider-general" class="item active">
+    	<div class="wrapper">
+	    	<div class="carousel-caption">
+	    		<h2>Michael T. DeBoer &amp; Associates</h2>
+	    		<p>We provide insurance and investment services for businesses, individuals and families.</p>
+	    		<a id="general-benefits-button" class="btn btn-lg btn-primary" href="{{ "/insurance/" | prepend: site.baseurl }}">Insurance Services<i class="fa fa-chevron-circle-right right"></i></a><a class="btn btn-lg btn-success" href="{{ "/investments/" | prepend: site.baseurl }}">Investment Services<i class="fa fa-chevron-circle-right right"></i></a>
+	    	</div>
+    	</div>
+    </div>
+    <div id="slider-healthcare" class="item">
+    	<div class="wrapper">
+	    	<div class="carousel-caption">
+	    		<h2>Health Care Reform</h2>
+	    		<p>What You Need To Know: The Affordable Health Care act introduces numerous regulations and rules that may impact the future of you and your family.</p>
+	    		<a class="btn btn-lg btn-primary" href="{{ "/frequently-asked-questions/" | prepend: site.baseurl }}">Read More<i class="fa fa-chevron-circle-right right"></i></a>
+	    	</div>
+    	</div>
+    </div>
+    <div id="slider-finance" class="item">
+    	<div class="wrapper">
+	    	<div class="carousel-caption">
+	    		<h2>Secure Your Financial Future</h2>
+	    		<p>Through careful analysis, we can help you build a nest egg for your future and your family.</p>
+	    		<a class="btn btn-lg btn-success" href="{{ "/investments/" | prepend: site.baseurl }}">Read More<i class="fa fa-chevron-circle-right right"></i></a>
+	    	</div>
+    	</div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#home-carousel" data-slide="prev">
+    <span class="fa fa-prev"></span>
+  </a>
+  <a class="right carousel-control" href="#home-carousel" data-slide="next">
+    <span class="fa fa-next"></span>
+  </a>
+  <div class="wrapper">
+	  <ol class="carousel-indicators">
+	    <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#home-carousel" data-slide-to="1"></li>
+	    <li data-target="#home-carousel" data-slide-to="2"></li>
+	  </ol>
+  </div>
+</div>
+
+<section id="home">
+	<div class="container wrapper">
+		<div class="row">
+			<div class="col-lg-12">
+				<div id="quote-alert" class="alert alert-info">
+					<div class="row">
+						<div class="col-md-7">
+							<i class="fa fa-medkit fa fa-3x pull-left red"></i>Enrollment starts November 15. <a href="https://retailweb.hcsc.net/retailshoppingcart/IL/census?ExpressLinkedAgentId=16904" target="_blank">Find out about the Affordable Care Act</a> and see if you qualify for subsidies.
+						</div>
+						<div class="col-md-5">
+							<div class="clearfix"></div>
+							<div class="row">
+								<div class="col-md-12 col-sm-6">
+									<a class="first-btn btn btn-block btn-primary btn-lg" href="https://retailweb.hcsc.net/retailshoppingcart/IL/census?ExpressLinkedAgentId=16904" target="_blank">Get a Blue Cross Blue Shield Quote<i class="fa fa-chevron-circle-right right"></i></a>
+								</div>
+								<div class="col-md-12 col-sm-6">
+									<a class="second-btn btn btn-block btn-danger btn-lg"  href="https://www.uhone.com/quote/GetQuote.ashx?BrokerID=AA1615205" target="_blank">Get a United Health One Quote<i class="fa fa-chevron-circle-right right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<p id="mtda-summary" class="lead">Michael T. DeBoer &amp; Associates provides insurance and investment services for your business, individual and family needs in the Chicagoland area. In today's changing economic climate, it's important to understand your options. Working closely with our associates, attorneys and accountants, we can help design a plan to solve almost any insurance or financial situation. Since 1984, we've shared ideas with large and small businesses, individuals and families to facilitate insurance needs and secure financial futures.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<h2>Insurance Services</h2>
+				<img class="img-bottom" src="{{ site.imagebase }}/family_baby.jpg" alt="Family">
+				<p class="lead">Help protect your family or business from financial loss in the event of an unexpected death, disability, long-term care stay or medical coverage loss.</p>
+				<a class="btn btn-lg btn-primary" href="{{ "/insurance/" | prepend: site.baseurl }}" title="Read More">Read More<i class="fa fa-chevron-circle-right right"></i></a>
+			</div>
+			<div class="col-md-6">
+				<h2>Investment Services</h2>
+				<img class="img-bottom" src="{{ site.imagebase }}/fatherson.jpg" alt="Father & Son">
+				<p class="lead">Put your hard earned money to work by choosing from our large selection of mutual funds and annuity products. See which ideas work best for you.</p>
+				<a class="btn btn-lg btn-success" href="{{ "/investments/" | prepend: site.baseurl }}" title="Read More">Read More<i class="fa fa-chevron-circle-right right"></i></a>
+			</div>
+		</div>
+	</div>
+</section>

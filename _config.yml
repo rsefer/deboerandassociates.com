@@ -1,0 +1,19 @@
+# Site settings
+title: 'Michael T. DeBoer &amp; Associates'
+company_name: 'Michael T. DeBoer &amp; Associates, Inc.'
+description: 'Medical and Healthcare Benefits, Life Insurance, and Investment Services'
+baseurl: ''
+imagebase: '/dist/images'
+
+# Build settings
+permalink: pretty
+
+exclude: [
+  'node_modules',
+  'package.json',
+  'gulpfile.js',
+  'README.md',
+  'SOURCE'
+]
+
+languages: ['en']

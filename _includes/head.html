@@ -1,0 +1,18 @@
+<head>
+  <title>{% if page.url != "/" and page.title %}{{ page.title }} | {% endif %}{{ site.title }} | {{ site.description }}</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}" />
+  <meta property="og:description" content="Michael T. DeBoer and Associates provides insurance and investment services for businesses, individuals and families." />
+  <meta property="og:url" content="https://deboerandassociates.com/" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <link rel="apple-touch-icon-precomposed" href="{{ site.imagebase }}/favicons/mtda_square_775.png">
+  <link rel="shortcut icon" href="{{ site.imagebase }}/favicons/mtda_square_144.png">
+  <script type="text/javascript" src="//use.typekit.net/opn7bgn.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="{{ "/dist/style/style.css?v=5" | prepend: site.baseurl }}" />
+</head>
